@@ -2,7 +2,7 @@ package be.vdab.shapes;
 
 /**
  * Exercise:
- *  - Organise yourselves in teams of two members<br/><br/>
+ *  - Organize yourselves in teams of two members<br/><br/>
  *  - Start from the same (shared) repository version<br/><br/>
  *  - Team member one:<br/>
  *      * Add a new abstract method "double Shape.area()". Make sure all subclasses implement the contract.<br/>
@@ -17,7 +17,7 @@ package be.vdab.shapes;
  */
 public class Main {
     private static Shape[] shapes = {
-        new Rectangle("Rectangle one"),
+        new Rectangle("Rectangle one",4),
         new Triangle("Triangle one")
     };
 
