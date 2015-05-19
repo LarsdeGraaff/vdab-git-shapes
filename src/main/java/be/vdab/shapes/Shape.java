@@ -9,6 +9,11 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape '" + name + "'";
+        return "Shape '" + name + "'" + "oppervlakte : " + area();
     }
+    
+    public double area(){
+    	return 0;
+    }
+    
 }
