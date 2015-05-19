@@ -9,6 +9,10 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape '" + name + "'";
+        return "Shape '" + name + "'" + " de omtrek bedraagt : " + perimeter();
+    }
+    
+    public double perimeter()	{
+    	return .0;
     }
 }
